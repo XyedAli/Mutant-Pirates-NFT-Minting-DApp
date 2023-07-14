@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0xc800064204ebcd1ee045afb921b12d4a0bf7567c",
+  "SCAN_LINK": "https://etherscan.io/address/0xC800064204ebcD1EE045aFB921b12D4A0bf7567C",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Mutant Pirateverse",
+  "SYMBOL": "MPV",
+  "MAX_SUPPLY": 3333,
+  "WEI_COST": 55000000000000000,
+  "DISPLAY_COST": 0.055,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "SHOW_BACKGROUND": true,
+  "DEEPLINK" : "https://metamask.app.link/dapp/mutantpirates.io/mint"
+}

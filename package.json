@@ -1,0 +1,40 @@
+{
+  "name": "nft_minting_dapp",
+  "version": "1.0.0",
+  "description": "We have been in the market from the Past one Year. We have seen Projects come and go but only a few have delivered on their promises. So, the idea is to create something unique with lots of utilities that will benefit our community for the coming years. Having a MUTANT NFT is just not having an NFT but actually being a part of an organic culture. Which will increase the value of your NFT possession.",
+  "private": true,
+  "dependencies": {
+    "@iconify/react": "^3.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "swiper": "^6.8.4",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
+  },
+  "author": "Syed Muhammad Ali",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

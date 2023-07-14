@@ -1,0 +1,134 @@
+/** @format */
+
+@font-face {
+  font-family: Black_Rose;
+  src: url(./Fonts/BlackRose-2Onld.ttf);
+}
+@font-face {
+  font-family: Lucida_handwriting;
+  src: url(./Fonts/Lucida-Handwriting-Italic.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Rosario:wght@300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: #290b31;
+  font-family: Black_Rose;
+}
+
+.story{
+  font-family: Lucida_handwriting;
+}
+
+p,
+a {
+  font-family: "Rosario", sans-serif;
+}
+header {
+  min-height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.spaxe {
+ 
+  margin-top: 120px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-md-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-md-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
